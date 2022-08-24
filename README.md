@@ -13,8 +13,7 @@ This project includes 6 files: <br> </br>
 
 ## Roadmap for Future Improvements
 Future improvements for this project include:  <br> </br>
-•	Fix my broken assignment (it stopped working after moving to Github) and renaming images <br>
-•	Customize pacmen further to resemble the classic game <br>
+•	<b> Customize pacmen further to resemble the classic game </b><br>
   -Format the background so it includes the maze-like layout and restricts pacmen's path <br>
   -Add different fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points <br>
   -Add a visual points tracker to calculate the number of fruits obtained <br>
@@ -22,7 +21,7 @@ Future improvements for this project include:  <br> </br>
   -Add control using the keyboards up/down/left/right <br>
   -Add ghosts to avoid and function to 'eat' the pacmen <br>
   -Add Pacman images with a different color and forms when their position overlap with special fruits <br>
-•	Create several functions, such as: <br>
+•	<b> Create several functions, such as: </b><br>
   -Add a function to 'lose' when the position of the Pacman equals that of any ghosts <br>
   -Add randomized motion for the ghosts where the ghosts will revert their course when they collide with each other <br>
   -Add a function to prevent all movements when the timer runs out and prevent further control <br>
