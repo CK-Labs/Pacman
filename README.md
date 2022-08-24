@@ -13,6 +13,7 @@ This project includes 6 files:
 
 ## Roadmap for Future Improvements
 Future improvements for this project include:
+•	Fix my broken assignment (it stopped working after moving to Github) and renaming images
 •	Customize pacmen further to resemble the classic game
   -Format the background so it includes the maze-like layout and restricts pacmen's path
   -Add different fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points
