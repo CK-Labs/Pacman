@@ -6,26 +6,26 @@
 ## How to Run
 You must download all files from this repository to your local drive - including all images in the image folder to get the js to work. Run the index.html file on any source code editors (ie. VS Code) and preview your edits on HTML source viewer (ie. Google Chrome browser).
 
-This project includes 6 files:
-•	<b>pacman1</b>, <b>pacman2</b>, <b>pacman3</b>, <b>pacman4</b>: the different images that pacman alternates between to create its animated munching effect
-•	<b>Index.html</b>: displays the html site where you can see the code demo-ed
-•	<b>pacmen.js</b>: includes the javascript programmed to run the pacman within and reverting course when it reaches the border
+This project includes 6 files: <br> </br>
+•	<b>pacman1</b>, <b>pacman2</b>, <b>pacman3</b>, <b>pacman4</b>: the different images that pacman alternates between to create its animated munching effect  <br>
+•	<b>Index.html</b>: displays the html site where you can see the code demo-ed <br>
+•	<b>pacmen.js</b>: includes the javascript programmed to run the pacman within and reverting course when it reaches the border <br>
 
 ## Roadmap for Future Improvements
-Future improvements for this project include:
-•	Fix my broken assignment (it stopped working after moving to Github) and renaming images
-•	Customize pacmen further to resemble the classic game
-  -Format the background so it includes the maze-like layout and restricts pacmen's path
-  -Add different fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points
-  -Add a visual points tracker to calculate the number of fruits obtained
-  -Add a visual timer to countdown visually 
-  -Add control using the keyboards up/down/left/right
-  -Add ghosts to avoid and function to 'eat' the pacmen
-  -Add Pacman images with a different color and forms when their position overlap with special fruits
-•	Create several functions, such as:
-  -Add a function to 'lose' when the position of the Pacman equals that of any ghosts
-  -Add randomized motion for the ghosts where the ghosts will revert their course when they collide with each other
-  -Add a function to prevent all movements when the timer runs out and prevent further control
+Future improvements for this project include:  <br> </br>
+•	Fix my broken assignment (it stopped working after moving to Github) and renaming images <br>
+•	Customize pacmen further to resemble the classic game <br>
+  -Format the background so it includes the maze-like layout and restricts pacmen's path <br>
+  -Add different fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points <br>
+  -Add a visual points tracker to calculate the number of fruits obtained <br>
+  -Add a visual timer to countdown visually  <br>
+  -Add control using the keyboards up/down/left/right <br>
+  -Add ghosts to avoid and function to 'eat' the pacmen <br>
+  -Add Pacman images with a different color and forms when their position overlap with special fruits <br>
+•	Create several functions, such as: <br>
+  -Add a function to 'lose' when the position of the Pacman equals that of any ghosts <br>
+  -Add randomized motion for the ghosts where the ghosts will revert their course when they collide with each other <br>
+  -Add a function to prevent all movements when the timer runs out and prevent further control <br>
   
 ## Credit
 MIT x PRO Full Stack Engineer Course which provided the starter kit to code this exercise
