@@ -20,7 +20,7 @@ Future improvements for this project include:  <br> </br>
   -Add a visual timer to countdown visually  <br>
   -Add control using the keyboards up/down/left/right <br>
   -Add ghosts to avoid and function to 'eat' the pacmen <br>
-  -Add Pacman images with a different color and forms when their position overlap with special fruits <br>
+  -Add Pacman images with a different color and forms when their position overlap with special fruits <br> <br></br>
 •	<b> Create several functions, such as: </b><br>
   -Add a function to 'lose' when the position of the Pacman equals that of any ghosts <br>
   -Add randomized motion for the ghosts where the ghosts will revert their course when they collide with each other <br>
