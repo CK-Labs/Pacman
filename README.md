@@ -1,47 +1,32 @@
-# MITxPRO-Javascript-Basics-Pacman
-Learning Javascript - exercise to design basic pacman
-
-Basic Pacman player simulation
-
-Description:
-This code replicates a specific feature of the Pac-Man game - where Pacman moves from one side of the screen to the other and reverts back if it meets the margin of the page.
-
-Installation: Download the images to get your js code working.
-
-Credit: MIT x PRO Full Stack Engineer Course which provided the starter kit to code this exercise
-
-This project includes 4 files:
-•	<b>pacman1</b>, <b>pacman2</b>, <b>pacman3</b>, <b>pacman4</b>: the different images that pacman alternates between to create its animated munching effect
-•	<b>Index.html</b> which includes the javascript programmed to run the eyes elements to follow the mouse
-•	<b>pacmen.js</b> the javascript file instructing the 
-
-# Wandering eyes (an MITxPRO Eye Exercise)
-## Project Title: ``Wandering Eyes``
+#  Pacman Exercise (an MITxPRO Pacman Exercise)
+## Project Title: ``Pacman``
 ## Description: 
-``Wandering eyes`` is an interactive project is an assignment created by the MIT x PRO Full Stack MERN course. 
-This exercise illustrates how events happen on the DOM to bind code to user actions. Using a combination of HTML, Javascript and CSS, the "eye" element built on the page follows the movement of the user's mouse. 
+``Pacman`` is a basic pacman player simulation based off of the classic retro game Pac-man. My Javascript assignment from the MIT x PRO Full Stack MERN course replicates a specific feature of the Pac-Man game - where Pacman moves from one side of the screen to the other and reverts back if it meets the margin of the page.
 
 ## How to Run
-To get started running this project on your machine, you can download the repository as a directory onto your local drive. Run the index.html file on any source code editors (ie. VS Code) and preview your edits on HTML source viewer (ie. Google Chrome browser).
+You must download all files from this repository to your local drive - including all images in the image folder to get the js to work. Run the index.html file on any source code editors (ie. VS Code) and preview your edits on HTML source viewer (ie. Google Chrome browser).
 
-This project includes 4 files:
-•	<b>index.html</b> which displays the html site where you can see the code demo-ed
-•	<b>eyes.js</b> which includes the javascript programmed to run the eyes elements to follow the mouse
-•	<b>styles.css</b> which includes the styling of each object (including the background, eye socket, eye ball and pupil)
-•	<b>pupils.js</b> a work-in-progress javascript for future improvements
+This project includes 6 files:
+•	<b>pacman1</b>, <b>pacman2</b>, <b>pacman3</b>, <b>pacman4</b>: the different images that pacman alternates between to create its animated munching effect
+•	<b>Index.html</b>: displays the html site where you can see the code demo-ed
+•	<b>pacmen.js</b>: includes the javascript programmed to run the pacman within and reverting course when it reaches the border
 
 ## Roadmap for Future Improvements
 Future improvements for this project include:
 •	Customize pacmen further to resemble the classic game
   -Format the background so it includes the maze-like layout and restricts pacmen's path
-  -Add fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points
-  -Add a points tracker to calculate the number of fruits obtained
-  -Add a timer to countdown visually 
-  -Add a timeout freeze when the timer runs out and prevent further control
+  -Add different fruits randomized and evenly spaced throughout the maze for the pacmen to 'eat' by sharing the same position to win points
+  -Add a visual points tracker to calculate the number of fruits obtained
+  -Add a visual timer to countdown visually 
   -Add control using the keyboards up/down/left/right
   -Add ghosts to avoid and function to 'eat' the pacmen
-•	Create a functioning element called pupil that moves faster than the eyeballs to follow the position of the mouse
-
+  -Add Pacman images with a different color and forms when their position overlap with special fruits
+•	Create several functions, such as:
+  -Add a function to 'lose' when the position of the Pacman equals that of any ghosts
+  -Add randomized motion for the ghosts where the ghosts will revert their course when they collide with each other
+  -Add a function to prevent all movements when the timer runs out and prevent further control
+  
+  
 ## License
 MIT x PRO Full Stack Engineer Course which provided the starter kit to code this exercise
 MIT License
